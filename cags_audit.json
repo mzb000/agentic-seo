@@ -1,0 +1,113 @@
+{
+  "target_url": "https://www.cags.com.tr/",
+  "final_url": "https://www.cags.com.tr/",
+  "composite_score": 62.2,
+  "grade": "D",
+  "total_issues_count": 10,
+  "audits": {
+    "technical": {
+      "score": 85,
+      "grade": "B",
+      "issues_count": 2,
+      "issues": [
+        {
+          "severity": "MEDIUM",
+          "check": "Canonical Tag",
+          "message": "Missing rel=canonical link tag."
+        },
+        {
+          "severity": "LOW",
+          "check": "Title Tag Length",
+          "message": "Title tag is too short (4 chars). Optimal range: 30-60 characters."
+        }
+      ]
+    },
+    "content": {
+      "score": 75,
+      "grade": "C",
+      "word_count": 219,
+      "h1_count": 1,
+      "h2_count": 2,
+      "issues_count": 2,
+      "issues": [
+        {
+          "severity": "MEDIUM",
+          "check": "Content Depth",
+          "message": "Short content (219 words). Recommend expanding to at least 500+ words."
+        },
+        {
+          "severity": "LOW",
+          "check": "Text-to-HTML Ratio",
+          "message": "Low text-to-HTML ratio (9.05%). Page contains heavy boilerplate code."
+        }
+      ]
+    },
+    "performance": {
+      "score": 70,
+      "grade": "C",
+      "latency_ms": 707.42,
+      "payload_kb": 16.44,
+      "compression": "None",
+      "redirect_hops": 0,
+      "issues_count": 2,
+      "issues": [
+        {
+          "severity": "MEDIUM",
+          "check": "Server Response Time (TTFB)",
+          "message": "Moderate response latency (707.42 ms). Can be optimized with caching/CDN."
+        },
+        {
+          "severity": "MEDIUM",
+          "check": "Text Compression",
+          "message": "Missing Gzip or Brotli compression headers on HTTP response."
+        }
+      ]
+    },
+    "schema": {
+      "score": 0,
+      "grade": "F",
+      "detected_schemas_count": 0,
+      "detected_types": [],
+      "issues_count": 1,
+      "issues": [
+        {
+          "severity": "HIGH",
+          "check": "Structured Data",
+          "message": "No JSON-LD structured data detected on page. Schema improves rich snippet eligibility."
+        }
+      ]
+    },
+    "geo_ai_search": {
+      "score": 40,
+      "grade": "F",
+      "question_headings_count": 0,
+      "structured_lists_count": 12,
+      "tables_count": 0,
+      "issues_count": 3,
+      "issues": [
+        {
+          "severity": "HIGH",
+          "check": "AI Query Headings",
+          "message": "Zero question-based headings found. AI search engines extract answers directly below query-framed headings."
+        },
+        {
+          "severity": "MEDIUM",
+          "check": "Direct Answer Snippet",
+          "message": "Missing concise 40-60 word definition paragraph in opening section for featured snippet capture."
+        },
+        {
+          "severity": "HIGH",
+          "check": "AI Entity Recognition",
+          "message": "Missing structured schema; AI search models require entity metadata to confirm source authority."
+        }
+      ]
+    }
+  },
+  "meta_summary": {
+    "title": "CAGS",
+    "meta_description": "Discover CAGS\u00ae, the trusted tobacco brand offering 'The Game-Changing Rolling Experience.' Global quality, 100% customer satisfaction.",
+    "word_count": 219,
+    "latency_ms": 707.42,
+    "detected_schemas": []
+  }
+}

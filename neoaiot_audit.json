@@ -1,0 +1,102 @@
+{
+  "target_url": "https://www.neoaiot.com/",
+  "final_url": "https://www.neoaiot.com/",
+  "composite_score": 77.5,
+  "grade": "C",
+  "total_issues_count": 7,
+  "audits": {
+    "technical": {
+      "score": 100,
+      "grade": "A",
+      "issues_count": 0,
+      "issues": []
+    },
+    "content": {
+      "score": 50,
+      "grade": "D",
+      "word_count": 51,
+      "h1_count": 1,
+      "h2_count": 0,
+      "issues_count": 3,
+      "issues": [
+        {
+          "severity": "LOW",
+          "check": "H2 Subheadings",
+          "message": "No <h2> subheadings detected. Subheadings improve topic depth and scannability."
+        },
+        {
+          "severity": "HIGH",
+          "check": "Thin Content",
+          "message": "Critical thin content detected (51 words). Pages need sufficient depth."
+        },
+        {
+          "severity": "LOW",
+          "check": "Text-to-HTML Ratio",
+          "message": "Low text-to-HTML ratio (1.32%). Page contains heavy boilerplate code."
+        }
+      ]
+    },
+    "performance": {
+      "score": 70,
+      "grade": "C",
+      "latency_ms": 1050.41,
+      "payload_kb": 23.33,
+      "compression": "None",
+      "redirect_hops": 0,
+      "issues_count": 2,
+      "issues": [
+        {
+          "severity": "MEDIUM",
+          "check": "Server Response Time (TTFB)",
+          "message": "Moderate response latency (1050.41 ms). Can be optimized with caching/CDN."
+        },
+        {
+          "severity": "MEDIUM",
+          "check": "Text Compression",
+          "message": "Missing Gzip or Brotli compression headers on HTTP response."
+        }
+      ]
+    },
+    "schema": {
+      "score": 100,
+      "grade": "A",
+      "detected_schemas_count": 2,
+      "detected_types": [
+        "WebSite",
+        "Organization"
+      ],
+      "issues_count": 0,
+      "issues": []
+    },
+    "geo_ai_search": {
+      "score": 60,
+      "grade": "D",
+      "question_headings_count": 0,
+      "structured_lists_count": 2,
+      "tables_count": 0,
+      "issues_count": 2,
+      "issues": [
+        {
+          "severity": "HIGH",
+          "check": "AI Query Headings",
+          "message": "Zero question-based headings found. AI search engines extract answers directly below query-framed headings."
+        },
+        {
+          "severity": "MEDIUM",
+          "check": "Direct Answer Snippet",
+          "message": "Missing concise 40-60 word definition paragraph in opening section for featured snippet capture."
+        }
+      ]
+    }
+  },
+  "meta_summary": {
+    "title": "NeoAIOT \u2014 Enterprise Software & IoT Solutions",
+    "meta_description": "NeoAIOT delivers enterprise software, IoT solutions, and Business Intelligence with Agentic AI for businesses across UK, UAE, KSA, and India.",
+    "word_count": 51,
+    "latency_ms": 1050.41,
+    "detected_schemas": [
+      "WebSite",
+      "Organization"
+    ]
+  }
+}
